@@ -17,11 +17,13 @@
 
 # which is better JAVA OR GO
 
-## GO has best concurrency support , it has has concept called **Go routines** (light weight thread) and channels are also there which can make two go routines communicate with eah other
+    ## GO has best concurrency support , it has has concept called **Go routines** (light weight thread) and channels are also there which can make two go routines communicate with eah other
 
 # it is a type safe language
 
-# c / c++ dont have garbage collector - > but go has (automatically recycling memory).
+# c / c++ dont have garbage collector - >
+
+    ## but go has (automatically recycling memory).
 
 # open source
 
