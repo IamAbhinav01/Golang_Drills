@@ -40,7 +40,22 @@ func main(){
 
 	}
 	fmt.Println(productList)
+	i:=150
+	var add *int = &i
+	fmt.Println(&add)
+	fmt.Println(add)
+	fmt.Println(*add)
 }
+
+
+
+
+
+
+
+
+
+
 
 // | Function   | Purpose                              | Example             |
 // | ---------- | ------------------------------------ | ------------------- |
