@@ -13,6 +13,22 @@ func loops(){
 	for i,char:= range "Abhinav"{
 		fmt.Println("Range of Abhinav",i,char)
 	}
+
+	 j:= 10
+	for j> 0{
+		if j == 7{
+			fmt.Println("reached 3")
+			j -- 
+		}else if j == 5{
+			fmt.Println("The number is 5")
+			j--
+			continue
+		}else{
+
+			fmt.Println("The value is descreasing",j)
+			j--
+		}
+	}
 } 
 func main(){
 	loops()
