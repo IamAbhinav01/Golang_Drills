@@ -3,15 +3,37 @@ package main
 import "fmt"
 
 
-func arrays_demo(){
-	var arr1 [] int //empty array
-	arr1 = append(arr1, 1,2,3,4,5)
+	
+// func arrays_demo(){
+// 	var arr1 [] int //empty array
+// 	arr1 = append(arr1, 1,2,3,4,5)
 
-	fmt.Println("Array 1 : ",arr1)
+// 	fmt.Println("Array 1 : ",arr1)
+// }
+func swap( num1 *int, num2 *int){
+	temp:=*num1
+	*num1 = *num2
+	*num2 = temp
+}
+func sort(){
+	var arr1 [] int //empty array
+	arr1 = append(arr1, 20,18,4,6,7,2)
+	for i := 1;i<len(arr1);i++{
+		for j := i ; j>0 ; j--{
+			if(arr1[j] < arr1[j-1]){
+				swap(&arr1[j],&arr1[j-1]);
+			}
+		} 
+	}
+
+	for i:=0;i<len(arr1);i++{
+		fmt.Println("value of ",i," element is ",arr1[i])
+	}
 }
 
 func main(){
-	arrays_demo()
+	// arrays_demo()
+	sort()
 }
 
 // | Function   | Purpose                              | Example             |
