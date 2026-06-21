@@ -34,6 +34,12 @@ func sort(){
 func main(){
 	// arrays_demo()
 	sort()
+	var productList = map[string]int{
+		"Apple":15,
+		"Bannana": 20,
+
+	}
+	fmt.Println(productList)
 }
 
 // | Function   | Purpose                              | Example             |
