@@ -33,6 +33,7 @@ func main(){
 
 
 	new_p := newProduct("Iphone",500,"Apple") // pointer to the prodct
+	new_p.display()
 	// fmt.Println("Product name : ",new_p.name)
 	// fmt.Println("Product price : ",new_p.price)
 	// fmt.Println("Product company : ",new_p.company)
