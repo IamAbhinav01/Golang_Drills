@@ -41,11 +41,11 @@ func main(){
 	// 	name: "Samsung",
 	// 	price: 50000,
 	// 	company: "Samsung LLC",
-	// }
-	// fmt.Println("The product name is : ",p.name)
+	// } is : ",p.name)
 // 	
 }
 
+	// fmt.Println("The product name
 
 
 
