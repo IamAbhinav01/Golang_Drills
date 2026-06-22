@@ -9,6 +9,15 @@ type Product struct{
 	company string
 }
 
+
+
+
+
+
+
+
+
+
 func (p *Product) display(){ //memebr function fo the product 
 	fmt.Println("PRODUCT DETAILS :")
 	fmt.Println("PRODUCT NAME : ",p.name)
