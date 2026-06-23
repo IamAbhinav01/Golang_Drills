@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	app "ComplexNumber/app"
+	"fmt"
 )
 
 func main(){
